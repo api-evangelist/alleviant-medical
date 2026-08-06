@@ -1,17 +1,39 @@
 aid: alleviant-medical
 name: Alleviant Medical
-description: 'Alleviant Medical is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Alleviant Medical, Inc. is a clinical-stage medical device company headquartered
+  in Austin, Texas, founded in 2017 to develop minimally invasive, transcatheter therapies
+  for heart failure. The Alleviant System is an investigational, no-implant approach that
+  creates a small interatrial passageway to relieve elevated left atrial pressure without
+  leaving a permanent device behind; it holds U.S. FDA Breakthrough Device designation for
+  both preserved and reduced ejection fraction heart failure and is under study in the
+  FDA-approved ALLAY-HF and ALLAY-HFrEF pivotal trials. The company has raised roughly $164M
+  across a $75M round led by S3 Ventures and RiverVest Venture Partners and a $90M round led
+  by Gilde Healthcare with Omega Funds, Vensana Capital, Longview Ventures, Gilmartin Capital
+  and the TMC Venture Fund. Alleviant is a device and clinical-trial business, not a software
+  business: it publishes no developer portal, no public API, no SDK and no machine-readable
+  specification, and its public web surface is limited to clinician, patient-education,
+  investor and press material.'
+image: https://alleviantmedical.com/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/alleviant-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Medical Devices
+- Health Care
+- Cardiology
+- Heart Failure
+- Interventional Cardiology
+- Clinical Trials
+- Medical Technology
+- Life Sciences
+- Austin
+- Texas
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,63 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alleviant-medical-domain-security.yml
 - type: Website
+  url: https://alleviantmedical.com
+- type: Product
+  url: https://alleviantmedical.com/hf-shunt-therapy
+- type: HealthcareProfessionals
+  url: https://alleviantmedical.com/healthcare-professionals
+- type: ClinicalTrials
+  url: https://alleviantmedical.com/allay-hf
+- type: Blog
+  url: https://alleviantmedical.com/press-resources
+- type: PressReleases
+  url: https://alleviantmedical.com/press-resources
+- type: Locations
+  url: https://alleviantmedical.com/find-a-center
+- type: Patents
+  url: https://alleviantmedical.com/patents
+- type: TermsOfService
+  url: https://alleviantmedical.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://alleviantmedical.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alleviant-medical/
+- type: Twitter
+  url: https://x.com/alleviant
+- type: Facebook
+  url: https://www.facebook.com/alleviantmedical
+- type: SecondaryMarket
   url: https://forgeglobal.com/alleviant-medical_stock/
+- type: LLMsTxt
+  url: llms/alleviant-medical-llms.txt
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Alleviant Medical is a clinical-stage cardiac device company whose product is an
+    investigational transcatheter shunt procedure, not software, so there is nothing to
+    expose as an API; alleviantmedical.com is a 25-page clinician and patient-education
+    site with no /developers or /api path and no api./docs./developer. subdomain resolving
+    in DNS at all.
+  evidence:
+  - url: https://alleviantmedical.com/developers
+    status: 404
+  - url: https://alleviantmedical.com/openapi.json
+    status: 404
+  - url: https://alleviantmedical.com/llms.txt
+    status: 404
+  - url: https://alleviantmedical.com/.well-known/agent-card.json
+    status: 404
+  - url: https://alleviantmedical.com/.well-known/security.txt
+    status: 404
+  - url: https://api.alleviantmedical.com/openapi.json
+    status: 0
+  checked: '2026-08-06'
