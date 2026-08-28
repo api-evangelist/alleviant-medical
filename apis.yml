@@ -13,6 +13,17 @@ description: 'Alleviant Medical, Inc. is a clinical-stage medical device company
   business: it publishes no developer portal, no public API, no SDK and no machine-readable
   specification, and its public web surface is limited to clinician, patient-education,
   investor and press material.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://alleviantmedical.com/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/alleviant-medical/refs/heads/main/apis.yml
 x-type: company
