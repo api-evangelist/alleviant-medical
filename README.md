@@ -64,5 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alleviant Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/alleviant-medical_stock/
+Alleviant Medical, Inc. is a clinical-stage medical device company headquartered in Austin, Texas, founded in 2017 to develop minimally invasive, transcatheter therapies for heart failure. The Alleviant System is an investigational, no-implant approach that creates a small interatrial passageway to relieve elevated left atrial pressure without leaving a permanent device behind; it holds U.S. FDA Breakthrough Device designation for both preserved and reduced ejection fraction heart failure and is under study in the FDA-approved ALLAY-HF and ALLAY-HFrEF pivotal trials. The company has raised roughly $164M across a $75M round led by S3 Ventures and RiverVest Venture Partners and a $90M round led by Gilde Healthcare with Omega Funds, Vensana Capital, Longview Ventures, Gilmartin Capital and the TMC Venture Fund. Alleviant is a device and clinical-trial business, not a software business: it publishes no developer portal, no public API, no SDK and no machine-readable specification, and its public web surface is limited to clinician, patient-education, investor and press material.
+
+**Areas:** Company · Medical Devices · Healthcare · Cardiology · Heart Failure · Interventional Cardiology · Clinical Trials · Medical Technology · Life Sciences · Austin · Texas
+
+## Alleviant Medical on APIs.io
+
+Everything profiled for Alleviant Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alleviant-medical/](https://apis.io/providers/alleviant-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alleviant Medical Domain Security](https://apis.io/security/alleviant-medical/alleviant-medical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alleviantmedical.com)
+- [Blog](https://alleviantmedical.com/press-resources)
+- [Terms of service](https://alleviantmedical.com/terms-and-conditions)
+- [Privacy policy](https://alleviantmedical.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alleviant-medical/](https://apis.io/providers/alleviant-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alleviant Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alleviant-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
